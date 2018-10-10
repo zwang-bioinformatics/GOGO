@@ -6,12 +6,12 @@ Zhao, C. and Wang, Z. (2018) [GOGO: An improved algorithm to measure the semanti
 ontology terms.](https://www.nature.com/articles/s41598-018-33219-y)
 Scientific Reports, 8, 15107; doi:10.1038/s41598-018-33219-y.
 ## Before use
-GOGO don't need to be installed. Get familiar with the commands below __(linux command)__, 
+GOGO don't need to be installed. __Get familiar with the commands below (linux command)__, 
 and make sure the input file following the correct format.
 Before using cluster function, an cluster tool must be downloaded and compiled.<br/>
-**Download affinity propagation cluster tool:<br/>**
+Download affinity propagation cluster tool:<br/>
 ```wget http://www.psi.toronto.edu/affinitypropagation/apcluster_unsupported.txt```<br/>
-**Change the file name and compile the c code:<br/>**
+Change the file name and compile the c code:<br/>
 ```mv apcluster_unsupported.txt apcluster.c```<br/>
 ```gcc -o apcluster apcluster.c```<br/>
 ## Calculate the semantic similarity between two or more GO terms
