@@ -1,5 +1,5 @@
 # GOGO
-**An Improved Algorithm to Measure the Semantic Similarity of Gene Ontology Terms<br/>**
+**An improved algorithm to measure the semantic similarity of gene ontology terms<br/>**
 Web server is available at http://dna.cs.miami.edu/GOGO/.
 ## Citation
 Zhao, C. and Wang, Z. (2018) [GOGO: An improved algorithm to measure the semantic similarity between gene 
