@@ -8,11 +8,8 @@ Scientific Reports, 8, 15107; doi:10.1038/s41598-018-33219-y.
 ## Before use
 GOGO don't need to be installed. __Get familiar with the commands below (linux command)__, 
 and make sure the input file following the correct format.
-Before using cluster function, an cluster tool must be downloaded and compiled.<br/>
-Download affinity propagation cluster tool:<br/>
-```wget http://www.psi.toronto.edu/affinitypropagation/apcluster_unsupported.txt```<br/>
-Change the file name and compile the c code:<br/>
-```mv apcluster_unsupported.txt apcluster.c```<br/>
+Before using cluster function, an cluster tool must be compiled.<br/>
+Compile affinity propagation cluster tool [(Frey 2007)](https://science.sciencemag.org/content/315/5814/972?casa_token=PwfWaVW8sqkAAAAA:dDutY-xuS6636qLYSNLvB0cl6W2oRInmXPckfOPld7t-y78MHBuc_TBwglAgCbqOeWkc9F7eoyWN):<br/>
 ```gcc -o apcluster apcluster.c```<br/>
 ## Calculate the semantic similarity between two or more GO terms
 The format:<br/>
